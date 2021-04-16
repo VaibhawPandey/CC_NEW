@@ -21,7 +21,7 @@ public class MurthalParatha {
 
         int ans = 0;
 
-        while (s < e) {
+        while (s <= e) {
 
             int mid = (s + e)/2;
             boolean isMakingParathaPossible = isMakingParathaPossible(r, mid, p);
@@ -42,7 +42,7 @@ public class MurthalParatha {
             int k = 0;
             while (r[i] * (k * (k + 1)) <= 2 * mid)
                 k++;
-            noOfParatha += k;
+            noOfParatha += k - 1;
 
             if (noOfParatha >= p)
                 return true;

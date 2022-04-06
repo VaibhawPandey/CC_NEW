@@ -1,7 +1,5 @@
 package main.java.Leetcode.WeeklyContest.WC220;
 
-import main.java.Leetcode.MonthlyLC.NovemberLeetcodingChallenge.Week5.JumpGameIII;
-
 public class JumpGameiV {
     public static void main(String[] args) {
 
